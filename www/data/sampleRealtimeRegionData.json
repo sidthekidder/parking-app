@@ -1,0 +1,10 @@
+[
+    {
+        "regionid": "1",
+        "freeSlots": 15
+    },
+    {
+        "regionid": "2",
+        "freeSlots": 10
+    }
+]

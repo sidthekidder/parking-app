@@ -1,0 +1,51 @@
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.float-button {
+  background-color: white;
+  opacity: 0.8;
+  height: 15%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  position: fixed;
+  bottom: 5%; /* Adjust height */
+  margin: 0% auto;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+ 
+/* make width of legend 60% only when width is greater than 480px */
+@media screen and (min-width: 480px)
+{
+  .float-button {
+    width: 60%;
+  }
+}
+
+/* make height of legend 10% only when width is greater than 640 */
+@media screen and (min-width: 1024px)
+{
+  .float-button {
+    height: 10%;
+  }
+}
+
+.float-button .height_fix {
+  margin-top: 100%;
+  border: 1px solid red;
+}
+ 
+.float-button .content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  margin-top: -20px;
+}

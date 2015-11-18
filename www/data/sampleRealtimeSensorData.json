@@ -1,0 +1,18 @@
+[
+    {
+        "sensorid": "6000",
+        "status": 0
+    },
+    {
+        "sensorid": "7000",
+        "status": 1
+    },
+    {
+        "sensorid": "8000",
+        "status": 0
+    },
+    {
+        "sensorid": "9000",
+        "status": 1
+    }
+]
