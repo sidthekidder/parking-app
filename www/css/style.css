@@ -29,13 +29,13 @@
   }
 }
 
-/* make height of legend 10% only when width is greater than 640 */
+/* make height of legend 10% only when width is greater than 640 
 @media screen and (min-width: 1024px)
 {
   .float-button {
     height: 10%;
   }
-}
+}*/
 
 .float-button .height_fix {
   margin-top: 100%;
